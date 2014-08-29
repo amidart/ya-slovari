@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Ya.Slovari-2",
+  "description": "Ya.Slovari-2",
+  "version": "1.1",
+
+  "icons": {
+    "128": "img/icon-128.png",
+    "48": "img/icon-48.png",
+    "16": "img/icon-16.png"
+  },
+
+  "background": {
+    "scripts": ["js/background.js", "js/url.js"]
+  },
+
+  "omnibox": {
+    "keyword": "l"
+  },
+
+  "permissions": [
+    "http://slovari.yandex.ru/*",
+    "http://suggest-slovari.yandex.ru/*",
+    "tabs"
+  ]
+}
